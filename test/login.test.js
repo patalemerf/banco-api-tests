@@ -9,7 +9,7 @@ describe('Login', () => {
                 .post('/login')
                 .set('Content-Type', 'application/json')
                 .send({
-                    userName: 'julio.lima',
+                    username: 'julio.lima',
                     senha: '123456'
                 });
 
